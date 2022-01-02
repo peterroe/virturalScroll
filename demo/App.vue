@@ -3,7 +3,7 @@
  * @Author: peterroe
  * @Date: 2022-01-02 12:19:59
  * @LastEditors: peterroe
- * @LastEditTime: 2022-01-02 13:47:26
+ * @LastEditTime: 2022-01-02 14:37:34
 -->
 <template>
     <VirtualListVue />
@@ -11,7 +11,7 @@
 
 <script setup>
 import VirtualListVue from './VirtualList.vue';
-import Add from '../lib/index.js'
+
 </script>
 
 <style>
