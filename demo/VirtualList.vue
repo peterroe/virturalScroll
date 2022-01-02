@@ -3,7 +3,7 @@
  * @Author: peterroe
  * @Date: 2022-01-02 12:21:45
  * @LastEditors: peterroe
- * @LastEditTime: 2022-01-02 14:36:20
+ * @LastEditTime: 2022-01-02 14:42:59
 -->
 <template>
 	<div ref="containerRef" style="height:100%" class="container">
@@ -72,6 +72,8 @@ const visibleData = computed(() => {
 	right: 0;
 	top: 0;
 .item
-	background-color skyblue
+	box-sizing border-box
+	border-bottom 1px solid #193E40
+	background-color #1AC980
 	height 200px
 </style>
